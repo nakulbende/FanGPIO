@@ -4,7 +4,7 @@ mkdir /home/pi/.FanGPIO
 cp FanGPIO.c /home/pi/.FanGPIO/
 cd /home/pi/.FanGPIO
 echo Installing wiringPi dependency - http://wiringpi.com/
-https://github.com/WiringPi/WiringPi /home/pi/.FanGPIO/wiringPi
+git clone https://github.com/WiringPi/WiringPi /home/pi/.FanGPIO/wiringPi
 cd wiringPi
 sh build
 cd ..
